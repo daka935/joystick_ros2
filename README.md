@@ -5,9 +5,9 @@ The first joystick driver for ROS2 created from scratch to support all platforms
 ```
 # with ROS2 already sourced
 $ cd <ros2_workspace>/src
-$ git clone https://github.com/FurqanHabibi/joystick_ros2
+$ git clone https://github.com/daka935/joystick_ros2
 $ cd ..
-$ ament build
+$ colcon build --packages-select joystick_ros2
 
 # for Linux / OS X
 $ source install/local_setup.bash
